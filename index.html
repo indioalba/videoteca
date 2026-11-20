@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera página</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <p>📚 VIDEOTECA DEL INSTITUTO</p>
+      <nav>
+        <a href="#catalogo">Catálogo</a> ·
+        <a href="#horario">Horario</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Índice</h1>
+      <ol>
+        <li><a href="#C1">Dune</a></li>
+        <li><a href="#C2">Matilda</a></li>
+        <li><a href="#C3">Bohemian rhapsody</a></li>
+      </ol>
+      <article>
+        <h2 id="C1">Dune</h2>
+        <p>La nueva película ya está disponible</p>
+        <img src="images/dune.jpeg" height="300" />
+      </article>
+      <article>
+        <h2 id="C2">Matilda</h2>
+        <p>Dos ejemplares nuevos en la sección infantil.</p>
+        <img src="images/matilda.jpeg" height="300" />
+      </article>
+      <article>
+        <h2 id="C3">Bohemian rhapsody</h2>
+        <p>Disfruta de la música y la carrera de Queen</p>
+        <iframe
+          width="500"
+          height="300"
+          src="https://www.youtube.com/embed/UiOYxLrKYYc?si=mgnD9fvmKLXabA0w"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </article>
+    </main>
+    <aside>
+      <h2>¿Sabías que…?</h2>
+      <p>Puedes renovar un préstamo dos veces.</p>
+    </aside>
+    <footer>
+      <p>IES Ejemplo · Abierto de 8:30 a 14:30</p>
+      <b>Suscríbete</b>
+      Email: <input type="email" name="email" />
+      <button type="submit">Enviar</button>
+    </footer>
+  </body>
+</html>
